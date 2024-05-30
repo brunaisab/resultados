@@ -30,6 +30,7 @@ body {
     background: var(--resultado-bg);
     text-align: center;
     color: var(--white);
+    border-radius: 0 0 3.2rem 3.2rem ;
 }
 
 .resultado h1 {
@@ -60,6 +61,7 @@ body {
     color:var(--light-blue);
 
 }
+
 .resultado h2 {
     font-size: 2.4rem;
     margin-bottom: 1rem;
@@ -71,7 +73,7 @@ body {
     color: var(--light-blue);
 }
 
-.resumo h2 {
+.resumo {
    padding: 2.4rem 3.2rem;
 }
 
@@ -96,6 +98,14 @@ body {
     gap: 1.2rem;
 }
 
+.resumo > div strong {
+   color: var(--dark-navy);
+}
+
+.resumo > div strong span {
+    opacity: 0.5;
+}
+
 .resumo_reaçao {
     background: var(--reaçao-bg); var(--resumo-div-bg);
     color: var(--reaçao-bg);
@@ -114,4 +124,16 @@ body {
 .resumo_visual {
     background: var(--visual-bg); var(--resumo-div-bg);
     color: var(--visual-bg);
+}
+
+.resumo button {
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
